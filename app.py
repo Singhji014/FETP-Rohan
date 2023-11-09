@@ -3,7 +3,7 @@ from flask_dance.contrib.google import make_google_blueprint, google
 
 app = Flask(__name__)
 app.secret_key = "mysecretkey"
-
+# authentication using google cloud
 blueprint = make_google_blueprint(
     client_id="302964484250-657mgtu5o1s81hlk4ll2kjj6k0kcaith.apps.googleusercontent.com",
     client_secret="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",
